@@ -72,13 +72,11 @@ frontend/
 
 ## Test Credentials
 
-Demo data is seeded with the following user:
-- **Email**: 2006vtanwar@gmail.com
-- **Password**: Use the configured local demo password.
+Demo user credentials are configured locally through environment variables and are not stored in this public repository.
 
-Admin user:
-- **Email**: admin@financeflow.com
-- **Password**: Use the configured local admin password.
+Admin credentials are also configured locally and are not exposed in this repository.
+
+*(Note: The admin account is a separate application-level administrator account meant for analytics and platform management, and does not represent the author's personal identity.)*
 
 ## API Documentation
 - `POST /api/auth/register` - Register a new user
@@ -100,4 +98,7 @@ The application is structured to be deployed easily:
 - **Database**: Use a free MongoDB Atlas Cluster for the `MONGO_URI`.
 
 ## Author
+
+**Vandana Tanwar**
+
 Developed for the Unified Mentor internship project.
